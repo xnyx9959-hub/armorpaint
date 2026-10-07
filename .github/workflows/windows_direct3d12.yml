@@ -20,3 +20,8 @@ jobs:
         cd paint
         ../base/make --compile
  
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: ArmorPaint-Windows
+          path: paint/build/
