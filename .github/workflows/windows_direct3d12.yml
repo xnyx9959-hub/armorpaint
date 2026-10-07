@@ -19,3 +19,4 @@ jobs:
       run: |
         cd paint
         ../base/make --compile
+ 
